@@ -9,7 +9,7 @@ function getRandomIntInclusive(min, max) {
 export default function Home() {
   return (
     <div id="heroes">
-      <HeroCard code={getRandomIntInclusive(0,100)}/>
+      <HeroCard code={getRandomIntInclusive(1,100)}/>
       <HeroCard code={getRandomIntInclusive(100,200)}/>
       <HeroCard code={getRandomIntInclusive(200,300)}/>
       <HeroCard code={getRandomIntInclusive(300,400)}/>
