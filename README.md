@@ -23,7 +23,7 @@ export default function Home() {
 Renderiza um contêiner ```<div>``` com o ID ```heroes```. Dentro desse ```<div>```, o componente ```HeroCard``` é chamado quatro vezes, cada vez com um código gerado aleatoriamente.
 Cada ```HeroCard``` vai receber um valor único no atributo ```code```.
 
-Função ```getRandomIntInclusive```:
+## Função ```getRandomIntInclusive```:
 
  * Gera um número aleatório inteiro dentro de um intervalo ```[min, max]```.
  * É usada para selecionar números aleatórios representando códigos de heróis.
